@@ -9,37 +9,79 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="page-header bg">
-      <div class="container page-header-container">
-        <h1 class="page-header-title"><span class="color-main">Когнитивные <br>искажения</span> <br>в программировании</h1>
-        <img class="page-header-img" src="img/main.png" alt="Изображение человека в раздумьях, сидящего за ноутбуком">
+    <header class="bg bg-light relative">
+      <div class="container flex-wrap relative">
+        <h1 class="title mb-185"><span class="color-primary">Когнитивные <br>искажения</span> <br>в программировании</h1>
+        <img class="page-header-img absolute" src="img/main.png" alt="Изображение человека в раздумьях, сидящего за ноутбуком">
         <div class="wrapper">
-          <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+          <p class="mt-0">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
         </div>
         <div class="wrapper">
-          <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
-          <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-          <a class="button" href="#intro">Подробнее</a>
+          <p class="mt-0">Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
+          <p class="mt-0">Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
+          <a class="btn btn-primary" href="#navigation">Подробнее</a>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="intro">
-        <div class="container intro-container">
-          <h2 class="intro-title"><span class="color-main">Что же это такое,</span> <br>когнитивные искажения?</h2>
-          <p class="intro-description">Что такое когнитивные искажения. Petrovna Channel</p>
-          <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
+      <section class="relative bg-white">
+        <div class="container text-center">
+          <h2 class="title mb-30">Что же это такое,<br><span class="color-primary">когнитивные искажения?</span></h2>
+          <p class="mb-30">Что такое когнитивные искажения. Petrovna Channel</p>
+          <iframe class="video relative mb-minus-200 z-100" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
         </div>
-
       </section>
 
-      <nav id="navigation">
+      <section class="bg-primary-dark" id="navigation">
+        <div class="container flex-wrap relative">
+          <div class="navigation mt-100 mb-minus-20">
+            <h2 class="title-secondary absolute"><span class="color-primary">5 когнитивных искажений<br></span> о существовании которых стоит помнить</h2>
+            <ol class="list">
+              <li class="list-item bg-light w-350">
+                <a class="list-card" href="#ikea-effect">
+                  <span class="card-number color-primary-dark">1</span>
+                  <h3 class="mt-0 mb-16 color-primary">Эффект ИКЕА</h3>
+                  <p class="my-0 color-dark">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+                </a>
+              </li>
+              <li class="list-item bg-light">
+                <a class="list-card" href="#early-iptimization">
+                  <span class="card-number color-primary-dark">2</span>
+                  <h3 class="mt-0 mb-16 color-primary">Преждевременная оптимизация</h3>
+                  <p class="my-0 color-dark">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+                </a>
+              </li>
+              <li class="list-item bg-light">
+                <a class="list-card" href="#newness-distortion">
+                  <span class="card-number color-primary-dark">3</span>
+                  <h3 class="mt-0 mb-16 color-primary">Искажение новизны</h3>
+                  <p class="my-0 color-dark">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+                </a>
+              </li>
+              <li class="list-item bg-light">
+                <a class="list-card" href="#hyperbolic-depreciation">
+                  <span class="card-number color-primary-dark">4</span>
+                  <h3 class="mt-0 mb-16 color-primary">Гиперболическое обесценивание</h3>
+                  <p class="my-0 color-dark">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+                </a>
+              </li>
+              <li class="list-item bg-light">
+                <a class="list-card" href="#planning-mistake">
+                  <span class="card-number color-primary-dark">5</span>
+                  <h3 class="mt-0 mb-16 color-primary">Ошибка планирования</h3>
+                  <p class="my-0 color-dark">Неправильно рассчитывать время необходимое для завершения задачи.</p>
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
 
-      </nav>
+      <section class="relative bg bg-light">
+        <div class="container">
 
-      <section>
-
+        </div>
       </section>
 
       <section>

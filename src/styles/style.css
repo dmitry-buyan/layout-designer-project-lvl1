@@ -523,6 +523,11 @@ h3 {
   margin-bottom: 0;
 }
 
+.mx-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .mb-minus-200 {
   margin-bottom: -200px;
 }

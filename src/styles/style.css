@@ -482,6 +482,10 @@ h3 {
   column-span: all;
 }
 
+.pl-30 {
+  padding-left: 30px;
+}
+
 .mt-0 {
   margin-top: 0;
 }
@@ -643,22 +647,31 @@ h3 {
   flex-direction: row-reverse;
 }
 
-.intro {
-  padding-left: 30px;
+.row-direction {
+  flex-direction: row;
+}
 
+.intro {
   font-size: 34px;
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
 
 .mark {
-  color: #908d8b;
   font-weight: 400;
   font-size: 24px;
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 
   background-color: transparent;
+}
+
+.mark-dark {
+  color: #908d8b;
+}
+
+.mark-light {
+  color: #d7ccc0;
 }
 
 .vertical-align {

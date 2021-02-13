@@ -12,6 +12,9 @@
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.7"
   },
+  "scripts": {
+    "test": "npx stylelint ./src/styles/*.css && npx htmlhint ./src/*.html"
+  },
   "author": "Nikita Mikhaylov",
   "license": "ISC"
 }

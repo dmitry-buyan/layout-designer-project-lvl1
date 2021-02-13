@@ -482,6 +482,10 @@ h3 {
   column-span: all;
 }
 
+.pr-30 {
+  padding-right: 30px;
+}
+
 .pl-30 {
   padding-left: 30px;
 }

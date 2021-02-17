@@ -442,6 +442,10 @@ body {
   column-span: all;
 }
 
+.block {
+  display: block;
+}
+
 .color-white {
   color: var(--white);
 }
@@ -568,15 +572,15 @@ body {
   margin-left: 0;
 }
 
-.mb-minus-310 {
+.mb-negative-310 {
   margin-bottom: -310px;
 }
 
-.mb-minus-200 {
+.mb-negative-200 {
   margin-bottom: -200px;
 }
 
-.mb-minus-20 {
+.mb-negative-20 {
   margin-bottom: -20px;
 }
 

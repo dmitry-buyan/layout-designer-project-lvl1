@@ -378,11 +378,14 @@ template {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 
   color: #2a2626;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+
   line-height: 1.6em;
+
 }
 
 .visually-hidden {
@@ -472,6 +475,10 @@ body {
 
 .z-100 {
   z-index: 100;
+}
+
+.z-200 {
+  z-index: 200;
 }
 
 .container {
@@ -754,9 +761,8 @@ body {
 }
 
 .bottom {
-  gap: 30px;
-
   column-count: 2;
+  column-gap: 30px;
 }
 
 .half-width {
